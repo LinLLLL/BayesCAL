@@ -20,9 +20,6 @@ The ColoredCatsDogs dataset  (CCD for short) has spurious correlations with the 
 
 The CCD dataset can be downloaded [here](https://pan.baidu.com/s/1za8Cp8PJyWWStTj88D4jGA?pwd=vjgf ).
 
-<img src="/Bayes-CAL/Figures/CCD.png" alt="CCD" style="zoom:3%;" />
-
-
 
 Make sure that the directory structure of each dataset is arranged as follows:
 
@@ -110,7 +107,7 @@ We provide the running scripts in `scripts/`. Make sure you change the path in `
 
 ## Pipline
 
-![image-20230817160654694](/Users/zl/Desktop/Bayes-CAL-master/Bayes-CAL-main/Figures/pipeline.png)
+![image-20230817160654694](/Bayes-CAL/Figures/pipeline.png)
 
 
 
@@ -119,17 +116,12 @@ We provide the running scripts in `scripts/`. Make sure you change the path in `
 Run python collect_result.py to get the final results of after hyperparameters search based on the training-domain validation or test domain validation.
 
 
-
 ## Results
 
 Run python collect_result.py to get the final result.
 
-<img src="/Bayes-CAL/Figures/res1.png" alt="image-20230817160514319" style="zoom:50%;" />
-
-<img src="/Bayes-CAL/Figures/res2.png" alt="image-20230817160527820" style="zoom:50%;" />
-
 ## Loss Landscape
 
-Set the max epoch at 50 to obtain the loss landscape.
+Set the max epoch at 50 to obtain the loss landscape for NICO subclasses.
 
-<img src="/Bayes-CAL/Figures/loss_landscape.png" alt="image-20230817160335622" style="zoom:70%;" />
+<img src="/Bayes-CAL/Figures/loss_landscape.png" alt="image-20230817160335622" style="zoom:50%;" />
