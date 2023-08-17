@@ -102,8 +102,7 @@ NICO
 ## How to Run
 
 We provide the running scripts in `scripts/`. Make sure you change the path in `DATA` and run the commands under `Bayes-CAL/scripts/`.
-
-
+Use `DATASET=PACS_BN` and `DATASET=NICO_BN` for base to new generalization experiments.
 
 ## Pipline
 
@@ -115,13 +114,8 @@ We provide the running scripts in `scripts/`. Make sure you change the path in `
 
 Run python collect_result.py to get the final results of after hyperparameters search based on the training-domain validation or test domain validation.
 
-
-## Results
-
-Run python collect_result.py to get the final result.
-
 ## Loss Landscape
 
-Set the max epoch at 50 to obtain the loss landscape for NICO subclasses.
+Set the max epoch at 50 to obtain the loss landscape for NICO subclasses (`DATASET=NICO_SUB`).
 
 <img src="/Bayes-CAL/Figures/loss_landscape.png" alt="image-20230817160335622" style="zoom:50%;" />
