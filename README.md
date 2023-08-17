@@ -20,7 +20,7 @@ The ColoredCatsDogs dataset  (CCD for short) has spurious correlations with the 
 
 The CCD dataset can be downloaded [here](https://pan.baidu.com/s/1za8Cp8PJyWWStTj88D4jGA?pwd=vjgf ).
 
-<img src="Bayes-CAL-main/Figures/CCD.png" alt="CCD" style="zoom:3%;" />
+<img src="/BayesCAL/Bayes-CAL/Figures/CCD.png" alt="CCD" style="zoom:3%;" />
 
 
 
@@ -124,12 +124,12 @@ Run python collect_result.py to get the final results of after hyperparameters s
 
 Run python collect_result.py to get the final result.
 
-<img src="/Users/zl/Desktop/Bayes-CAL-master/Bayes-CAL-main/Figures/res1.png" alt="image-20230817160514319" style="zoom:50%;" />
+<img src="/BayesCAL/Bayes-CAL/Figures/res1.png" alt="image-20230817160514319" style="zoom:50%;" />
 
-<img src="/Users/zl/Desktop/Bayes-CAL-master/Bayes-CAL-main/Figures/res2.png" alt="image-20230817160527820" style="zoom:50%;" />
+<img src="/BayesCAL/Bayes-CAL/Figures/res2.png" alt="image-20230817160527820" style="zoom:50%;" />
 
 ## Loss Landscape
 
 Set the max epoch at 50 to obtain the loss landscape.
 
-<img src="/Users/zl/Desktop/Bayes-CAL-master/Bayes-CAL-main/Figures/loss_landscape.png" alt="image-20230817160335622" style="zoom:70%;" />
+<img src="/BayesCAL/Bayes-CAL/Figures/loss_landscape.png" alt="image-20230817160335622" style="zoom:70%;" />
