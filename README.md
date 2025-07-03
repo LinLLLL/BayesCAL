@@ -2,7 +2,11 @@
 
 The official implementation of  **Bayesian Cross-modal Alignment Learning for Few-Shot Out-of-Distribution Generalization.**
 
-We propose a novel Bayesian cross-modal alignment learn- ing method (Bayes-CAL) for few-shot OoD generalization. Unlike CoCoOp and DPLCLIP that fine-tune task-specific parameters by incorporating the conditional information ex- tracted from image features, we fine-tune on the semantic space by enforcing domain-invariant alignment under the proposed regularization terms. Moreover, the Bayesian treat- ment is specially introduced to substantially alleviate over- fitting. Based on the domain-invariant information disentan- gled from the image features, the distributions of the task- specific parameters are estimated. Without a query of a large amount of GPU memory like CoCoOp in every run, the pro- posed Bayes-CAL is simple yet efficient, making fine-tuning on few-shot samples practical in the few-shot OoD setting.
+We propose a novel Bayesian cross-modal alignment learn- ing method (Bayes-CAL) for few-shot OoD generalization. Unlike CoCoOp and DPLCLIP which fine-tune task-specific parameters by incorporating the conditional information extracted from image features, we fine-tune on the semantic space by enforcing domain-invariant alignment under the proposed regularization terms. Moreover, the Bayesian treatment is specially introduced to substantially alleviate overfitting. Based on the domain-invariant information disentangled from the image features, the distributions of the task-specific parameters are estimated. Without a query of a large amount of GPU memory like CoCoOp in every run, the proposed Bayes-CAL is simple yet efficient, making fine-tuning on few-shot samples practical in the few-shot OoD setting.
+
+# News
+
+Our extended paper has been accepted by IJCV 2025! 🎉🎉🎉 
 
 
 
