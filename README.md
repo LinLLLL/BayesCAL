@@ -6,8 +6,8 @@ We propose a novel Bayesian cross-modal alignment learn- ing method (Bayes-CAL) 
 
 # News
 
-## Our extended paper has been accepted by IJCV 2025! 🎉🎉🎉 
-
+## Our extended paper has been accepted by IJCV 2025! 🎉🎉🎉  
+[https://link.springer.com/article/10.1007/s11263-025-02527-y]
 
 
 ## How to Install
