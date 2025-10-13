@@ -108,7 +108,7 @@ NICO
 We provide the running scripts in `scripts/`. Make sure you change the path in `DATA` and run the commands under `Bayes-CAL/scripts/`.
 Use `DATASET=PACS_BN` and `DATASET=NICO_BN` for base to new generalization experiments.
 
-## Pipline
+## Pipeline
 
 ![image-20230817160654694](/Bayes-CAL/Figures/pipeline.png)
 
@@ -116,7 +116,7 @@ Use `DATASET=PACS_BN` and `DATASET=NICO_BN` for base to new generalization exper
 
 ## Collect Results
 
-Run python collect_result.py to get the final results of after hyperparameters search based on the training-domain validation or test domain validation.
+Run `python collect_result.py` to get the final results of after hyperparameters search based on the training-domain validation or test domain validation.
 
 ## Loss Landscape
 
